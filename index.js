@@ -10,3 +10,11 @@ return ('This one is on me!');
     return ('I will gladly take your thirty bucks.')
 }
 }
+function ternaryCheckCity(city){
+  if (city === 'NYC'){
+    return ('OK, sounds good.')
+  }
+  else {
+    return ('No go.')
+  }
+}
